@@ -1,0 +1,294 @@
+repo_name: DrivenIdeaLab/notes-android
+report_id: c50793055f1f692ed66da941c6f5a856
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:53:44+00:00'
+requested_by: AndyScherzinger
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-18 19:44:19.000000000 Z
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Stefan Niedermann
+  last_updated_on: 2024-01-20 09:47:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/.github/workflows/analysis.yml
+  detection_source: ".github/workflows/analysis.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-05-08 21:29:27.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: korelstar
+  last_updated_on: 2017-02-28 10:02:21.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 5.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-03-01 10:48:39.000000000 Z
+- name: Robolectric
+  description: An open-source testing framework for Android
+  website_url: http://robolectric.org/
+  version: 4.12.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2022/OavapKft_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-03 06:46:07.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Álvaro Brey
+  last_updated_on: 2023-02-02 14:24:20.000000000 Z
+- name: fastlane
+  description: Connect all iOS deployment tools into one streamlined workflow
+  website_url: https://fastlane.tools/
+  version: 2.214.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Continuous Integration
+  image_url: https://img.stackshare.io/service/2383/11098337.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Álvaro Brey
+  last_updated_on: 2023-02-02 15:26:23.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-18 19:44:19.000000000 Z
+- name: Retrofit
+  description: A type-safe HTTP client for Android and Java
+  website_url: http://square.github.io/retrofit/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/2856/retrofit-logo.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-03-28 20:39:38.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android
+  detection_source: Repo Metadata
+- name: com.github.bumptech.glide:glide
+  description: A fast and efficient image loading library for Android focused on smooth
+    scrolling
+  license: BSD-2-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-18 19:44:19.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-18 19:44:19.000000000 Z
+- name: com.squareup.retrofit2:retrofit
+  version: 2.11.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-18 19:44:19.000000000 Z
+- name: io.reactivex.rxjava2:rxandroid
+  description: RxAndroid
+  version: 2.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-18 19:44:19.000000000 Z
+- name: io.reactivex.rxjava2:rxjava
+  description: Reactive Extensions for Java
+  version: 2.2.21
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Álvaro Brey
+  last_updated_on: 2023-03-07 15:20:48.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Stefan Niedermann
+  last_updated_on: 2021-04-08 17:42:11.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 5.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-17 19:32:18.000000000 Z
+- name: org.robolectric:robolectric
+  description: An alternative Android testing framework
+  version: 4.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/notes-android/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-04-03 06:46:07.000000000 Z
